@@ -1,0 +1,22 @@
+booth is under the GNU General Public License v2; please see
+/usr/share/common-licenses/GPL-2 for details.
+
+Copyright notices in individual files:
+
+src/transport.h: * Copyright (C) 2011 Jiaju Zhang <jjzhang@suse.de>
+src/config.h: * Copyright (C) 2011 Jiaju Zhang <jjzhang@suse.de>
+src/log.h: * Copyright (C) 2010-2011 Red Hat, Inc.  All rights reserved.
+src/pacemaker.h: * Copyright (C) 2011 Jiaju Zhang <jjzhang@suse.de>
+src/timer.c: * Copyright (C) 2011 Jiaju Zhang <jjzhang@suse.de>
+src/timer.h: * Copyright (C) 2011 Jiaju Zhang <jjzhang@suse.de>
+src/pacemaker.c: * Copyright (C) 2011 Jiaju Zhang <jjzhang@suse.de>
+src/transport.c: * Copyright (C) 2011 Jiaju Zhang <jjzhang@suse.de>
+src/booth.h: * Copyright (C) 2011 Jiaju Zhang <jjzhang@suse.de>
+src/config.c: * Copyright (C) 2011 Jiaju Zhang <jjzhang@suse.de>
+src/ticket.h: * Copyright (C) 2011 Jiaju Zhang <jjzhang@suse.de>
+src/paxos.c: * Copyright (C) 2011 Jiaju Zhang <jjzhang@suse.de>
+src/paxos.h: * Copyright (C) 2011 Jiaju Zhang <jjzhang@suse.de>
+src/paxos_lease.h: * Copyright (C) 2011 Jiaju Zhang <jjzhang@suse.de>
+src/main.c: * Copyright (C) 2011 Jiaju Zhang <jjzhang@suse.de>
+src/paxos_lease.c: * Copyright (C) 2011 Jiaju Zhang <jjzhang@suse.de>
+src/ticket.c: * Copyright (C) 2011 Jiaju Zhang <jjzhang@suse.de>
