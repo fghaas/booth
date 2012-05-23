@@ -13,8 +13,8 @@ Package: booth
 Architecture: linux-any
 Section: admin
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Booth daemon
- Implements the Paxos distributed consensus algorithm in order
+Description: Paxos-based daemon to manage multi-site clusters
+ Booth implements the Paxos distributed consensus algorithm in order
  to manage automatic failover in multi-site clusters.
  .
  This package contains the booth daemon, and a script to run booth
@@ -24,8 +24,8 @@ Package: booth-pacemaker
 Architecture: linux-any
 Section: admin
 Depends: ${shlibs:Depends}, ${misc:Depends}, booth, pacemaker
-Description: Booth Pacemaker resource agents
- Implements the Paxos distributed consensus algorithm in order
+Description: Resource agents to integrate booth with Pacemaker
+ Booth implements the Paxos distributed consensus algorithm in order
  to manage automatic failover in multi-site clusters.
  .
  This package contains the integration script for booth to run as
