@@ -1,0 +1,32 @@
+Source: booth
+Section: admin
+Priority: extra
+Maintainer: Debian HA Maintainers <debian-ha-maintainers@lists.alioth.debian.org>
+Uploaders: Martin Loschwitz <madkiss@debian.org>
+Build-Depends: debhelper (>= 7), dh-autoreconf, help2man, pkg-config, libglib2.0-dev, cluster-glue-dev, libplumb2-dev
+Standards-Version: 3.9.1
+Homepage: http://github.com/ClusterLabs/booth
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=debian-ha/booth.git
+Vcs-Git: git://git.debian.org/git/debian-ha/booth/
+
+Package: booth
+Architecture: linux-any
+Section: admin
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Booth daemon
+ Booth implements the Paxos distributed consensus algorithm in order
+ to manage automatic failover in multi-site clusters.
+ .
+ This package contains the booth daemon, and a script to run booth
+ in standalone ("arbitrator") mode.
+
+Package: booth-pacemaker
+Architecture: linux-any
+Section: admin
+Depends: ${shlibs:Depends}, ${misc:Depends}, booth, pacemaker
+Description: Booth Pacemaker resource agents
+ Booth implements the Paxos distributed consensus algorithm in order
+ to manage automatic failover in multi-site clusters.
+ .
+ This package contains the integration script for booth to run as
+ part of a Pacemaker cluster.
