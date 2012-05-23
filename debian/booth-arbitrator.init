@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 #
 # BOOTH daemon init script for LSB-compliant Linux distributions.
 #
@@ -43,7 +43,7 @@ status() {
 
 start() {
 	[ -x $exec ] || exit 5
-	echo -n $"Starting BOOTH arbitrator daemon: "
+	echo -n "Starting BOOTH arbitrator daemon: "
 	if ! internal_status; then
 		startproc $exec $type
 	fi
@@ -51,7 +51,7 @@ start() {
 }
 
 stop() {
-	echo -n $"Stopping BOOTH arbitrator daemon: "
+	echo -n "Stopping BOOTH arbitrator daemon: "
 	killproc -p $lockfile $prog -TERM
 	rc_status -v
 }
@@ -82,6 +82,6 @@ case "$1" in
         status $prog
         ;;
     *)
-        echo $"Usage: $0 {start|stop|restart|try-restart|condrestart|reload|force-reload|status}"
+        echo "Usage: $0 {start|stop|restart|try-restart|condrestart|reload|force-reload|status}"
         exit 2
 esac
