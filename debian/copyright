@@ -6,6 +6,21 @@ Source: http://github.com/ClusterLabs/booth
 Files: *
 Copyright: 2011 Jiaju Zhang
 License: GPL-2+
+
+Files: src/log.h
+Copyright: 2010-2011 Red Hat, Inc.
+License: GPL-2+
+
+Files: test/*
+Copyright: 2012 Adam Spiers
+License: GPL-2+
+Comment: Inferred from git commit messages (no explicit copyright attribution in source).
+
+Files: debian/*
+Copyright: 2012 Florian Haas, Martin Loschwitz
+License: GPL-2+
+
+License: GPL-2+
  This program is free software; you can redistribute it
  and/or modify it under the terms of the GNU General Public
  License as published by the Free Software Foundation; either
@@ -27,14 +42,3 @@ License: GPL-2+
  License version 2 can be found in the file
  `/usr/share/common-licenses/GPL-2'.
 
-Files: src/log.h
-Copyright: 2010-2011 Red Hat, Inc.
-License: GPL-2+
-
-Files: test/*
-Copyright: 2012 Adam Spiers
-License: GPL-2+
-
-Files: debian/*
-Copyright: 2012 Florian Haas, Martin Loschwitz
-License: GPL-2+
